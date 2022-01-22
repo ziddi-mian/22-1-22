@@ -5,9 +5,6 @@
 // 1
 
 
-
-
-
 function daylights_savings(dt) 
 { 
   var dst = null;
@@ -32,6 +29,7 @@ dt = new Date();
 console.log(daylights_savings(dt)); 
 dt = new Date(1989, 10, 1); 
 console.log(daylights_savings(dt));
+
 
 // Write a JavaScript function to get difference to Greenwich time (GMT) in hours.   
 // Test Data :
